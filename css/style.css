@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.container{
+    width: 100%;
+    display: flex;
+}
+h1{
+    color: #9C2482;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+
+}
+.girl-img{
+    width: 513px;
+    margin-top: 20px;
+    padding-left: 300px
+}
+
+dl{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 20px;
+    padding-left: 30px
+    
+}
+dt{
+    font-size: 27px;
+    color: #121212;
+    font-family: "Montserrat", sans-serif;
+
+}
+dd{
+    font-size: 16px;
+    color: #524848;
+    font-family: "Inter", sans-serif;
+    margin-left: 0px;
+    letter-spacing: 0.6px;
+
+  
+}
+
+.button{
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    width: 290px;
+    height: 67px;
+    background: #9C2482;
+}
+
+.button p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.lily{
+    position: absolute;
+    left: 1300px;
+    top: 370px;
+}
