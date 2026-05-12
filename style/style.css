@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+header .header_icons{
+    position: absolute;
+    right: 100px;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+h1{
+    font-size: 32px;
+    color: #121212;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    position: absolute;
+    margin: 0px;
+    top: 90px;
+    left: 0px;  
+    height: 50px;
+    width: 100%;
+    background-color: #121212;
+    align-items: center;
+}
+.types{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    gap: 68px;
+    top: 13 px;
+    left: 150px;
+}
+
+
+.number{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* width: 100%; */
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    gap: 15px;
+    top: 13 px;
+    right: 150px;
+}
+.mobile{
+    background-image: url(../img/mobile.png);
+    height: 850px;
+    margin-top: -20px;
+}
+
+.button{
+    position: absolute;
+    top: 600px;
+    right: 600px;
+    
+}
+
+.grid-conteiner {
+    
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(4, 200px); 
+    grid-template-rows: repeat(2, 360px);
+    gap: 200px;
+    justify-content: center;
+ 
+}
+
+.center-nav{
+    position: relative;
+    top: 0px;
+    height: 190px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer{
+    margin-top: 200px;
+    height: 195px;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 118px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+footer h2{
+    position: relative;
+    left: -218px;
+    font-size: 32px;
+    font-weight: 700;
+}
